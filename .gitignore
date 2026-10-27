@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# Environment Variables
+.env
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Training Outputs
+runs/
+
+# Snapshots
+snapshots/
+
+# Temporary Files
+*.tmp
+*.temp
+
+# Python Build Files
+build/
+dist/
+*.egg-info/
+
+# Cache
+.cache/
+
+# Model Training Cache
+wandb/
+
+# Torch Cache
+*.pth
+
+# YOLO Cache
+labels.cache
